@@ -14,7 +14,7 @@ public class DwitterRestApiService {
 	
 	@RequestMapping(value="/register")
 	public void register(@RequestBody RegisterDTO registerDTO) {
-		
+		log.info("");
 	}
 
 }
